@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Special Actions Configuration Data. 01/25/2021 10:46:49 -->
+<Actions>
+  <Action Name="Disconnect Controller">
+    <Trigger>PS/Options</Trigger>
+    <Type>DisconnectBT</Type>
+    <Details>0</Details>
+  </Action>
+  <Action Name="msi">
+    <Trigger>R3/L3</Trigger>
+    <Type>Key</Type>
+    <Details>221</Details>
+  </Action>
+</Actions>

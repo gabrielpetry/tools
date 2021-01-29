@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Profile Configuration Data. 01/28/2021 20:24:36 -->
+<!-- Made with DS4Windows version 2.2.2 -->
+
+<Profile app_version="2.2.2" config_version="2">
+  <useExclusiveMode>False</useExclusiveMode>
+  <startMinimized>True</startMinimized>
+  <minimizeToTaskbar>False</minimizeToTaskbar>
+  <formWidth>782</formWidth>
+  <formHeight>550</formHeight>
+  <formLocationX>583</formLocationX>
+  <formLocationY>380</formLocationY>
+  <Controller1>Default</Controller1>
+  <Controller2>Default</Controller2>
+  <LastChecked>01/28/2021 05:05:50</LastChecked>
+  <CheckWhen>24</CheckWhen>
+  <Notifications>2</Notifications>
+  <DisconnectBTAtStop>False</DisconnectBTAtStop>
+  <SwipeProfiles>True</SwipeProfiles>
+  <QuickCharge>False</QuickCharge>
+  <CloseMinimizes>True</CloseMinimizes>
+  <UseLang>
+  </UseLang>
+  <DownloadLang>True</DownloadLang>
+  <FlashWhenLate>True</FlashWhenLate>
+  <FlashWhenLateAt>40</FlashWhenLateAt>
+  <AppIcon>Default</AppIcon>
+  <AppTheme>Default</AppTheme>
+  <UseUDPServer>False</UseUDPServer>
+  <UDPServerPort>26760</UDPServerPort>
+  <UDPServerListenAddress>127.0.0.1</UDPServerListenAddress>
+  <UDPServerSmoothingOptions>
+    <UseSmoothing>False</UseSmoothing>
+    <UdpSmoothMinCutoff>4</UdpSmoothMinCutoff>
+    <UdpSmoothBeta>1</UdpSmoothBeta>
+  </UDPServerSmoothingOptions>
+  <UseCustomSteamFolder>False</UseCustomSteamFolder>
+  <CustomSteamFolder>
+  </CustomSteamFolder>
+  <AutoProfileRevertDefaultProfile>True</AutoProfileRevertDefaultProfile>
+  <DeviceOptions>
+    <DS4SupportSettings>
+      <Enabled>True</Enabled>
+    </DS4SupportSettings>
+    <DualSenseSupportSettings>
+      <Enabled>True</Enabled>
+      <EnableRumble>True</EnableRumble>
+      <RumbleStrength>Medium</RumbleStrength>
+    </DualSenseSupportSettings>
+    <SwitchProSupportSettings>
+      <Enabled>True</Enabled>
+      <EnableHomeLED>True</EnableHomeLED>
+    </SwitchProSupportSettings>
+    <JoyConSupportSettings>
+      <Enabled>True</Enabled>
+      <EnableHomeLED>True</EnableHomeLED>
+    </JoyConSupportSettings>
+  </DeviceOptions>
+  <CustomLed1>False:0,0,255</CustomLed1>
+  <CustomLed2>False:0,0,255</CustomLed2>
+  <CustomLed3>False:0,0,255</CustomLed3>
+  <CustomLed4>False:0,0,255</CustomLed4>
+  <CustomLed5>False:0,0,255</CustomLed5>
+  <CustomLed6>False:0,0,255</CustomLed6>
+  <CustomLed7>False:0,0,255</CustomLed7>
+  <CustomLed8>False:0,0,255</CustomLed8>
+</Profile>
