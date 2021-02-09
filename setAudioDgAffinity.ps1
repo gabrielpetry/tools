@@ -1,0 +1,1 @@
+$Process = Get-Process audiodg; $Process.ProcessorAffinity=1
