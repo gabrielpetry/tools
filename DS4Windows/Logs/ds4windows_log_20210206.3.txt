@@ -1,0 +1,19 @@
+2021-02-06 11:31:04.9910|INFO|DS4Windows version 2.2.4
+2021-02-06 11:31:04.9910|INFO|DS4Windows exe file: DS4Windows.exe
+2021-02-06 11:31:04.9910|INFO|DS4Windows Assembly Architecture: x64
+2021-02-06 11:31:04.9910|INFO|OS Version: Microsoft Windows NT 10.0.19042.0
+2021-02-06 11:31:04.9910|INFO|OS Product Name: Windows 10 Enterprise
+2021-02-06 11:31:04.9910|INFO|OS Release ID: 2009
+2021-02-06 11:31:04.9910|INFO|System Architecture: x64
+2021-02-06 11:31:04.9910|INFO|Logger created
+2021-02-06 11:31:05.0770|INFO|LinkedProfiles.xml can't be found.
+2021-02-06 11:31:06.9639|INFO|Running as User
+2021-02-06 11:31:10.2759|INFO|Starting...
+2021-02-06 11:31:10.2759|INFO|Connection to ViGEmBus 1.16.112.0 established
+2021-02-06 11:31:10.2759|INFO|Searching for controllers...
+2021-02-06 11:31:10.2759|INFO|Using Shared Mode
+2021-02-06 11:34:22.1348|INFO|User Session Ending
+2021-02-06 11:34:22.1488|INFO|Stopping Virtual Output Controllers
+2021-02-06 11:34:22.1488|INFO|Closing connection to ViGEmBus
+2021-02-06 11:34:22.1488|INFO|Stopping DS4 Input Controllers
+2021-02-06 11:34:22.1488|INFO|Stopped DS4Windows

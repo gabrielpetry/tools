@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Profile Configuration Data. 01/28/2021 20:24:36 -->
-<!-- Made with DS4Windows version 2.2.2 -->
+<!-- Profile Configuration Data. 02/08/2021 19:45:59 -->
+<!-- Made with DS4Windows version 2.2.4 -->
 
-<Profile app_version="2.2.2" config_version="2">
+<Profile app_version="2.2.4" config_version="2">
   <useExclusiveMode>False</useExclusiveMode>
   <startMinimized>True</startMinimized>
   <minimizeToTaskbar>False</minimizeToTaskbar>
@@ -12,7 +12,7 @@
   <formLocationY>380</formLocationY>
   <Controller1>Default</Controller1>
   <Controller2>Default</Controller2>
-  <LastChecked>01/28/2021 05:05:50</LastChecked>
+  <LastChecked>07/02/2021 08:21:11</LastChecked>
   <CheckWhen>24</CheckWhen>
   <Notifications>2</Notifications>
   <DisconnectBTAtStop>False</DisconnectBTAtStop>
@@ -44,16 +44,12 @@
     </DS4SupportSettings>
     <DualSenseSupportSettings>
       <Enabled>True</Enabled>
-      <EnableRumble>True</EnableRumble>
-      <RumbleStrength>Medium</RumbleStrength>
     </DualSenseSupportSettings>
     <SwitchProSupportSettings>
       <Enabled>True</Enabled>
-      <EnableHomeLED>True</EnableHomeLED>
     </SwitchProSupportSettings>
     <JoyConSupportSettings>
       <Enabled>True</Enabled>
-      <EnableHomeLED>True</EnableHomeLED>
     </JoyConSupportSettings>
   </DeviceOptions>
   <CustomLed1>False:0,0,255</CustomLed1>

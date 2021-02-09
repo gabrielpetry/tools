@@ -1,14 +1,14 @@
-2021-01-29 05:50:50.9988|INFO|DS4Windows version 2.2.2
-2021-01-29 05:50:51.0038|INFO|DS4Windows exe file: DS4Windows.exe
-2021-01-29 05:50:51.0038|INFO|DS4Windows Assembly Architecture: x64
-2021-01-29 05:50:51.0038|INFO|OS Version: Microsoft Windows NT 10.0.19042.0
-2021-01-29 05:50:51.0038|INFO|OS Product Name: Windows 10 Enterprise
-2021-01-29 05:50:51.0038|INFO|OS Release ID: 2009
-2021-01-29 05:50:51.0038|INFO|System Architecture: x64
-2021-01-29 05:50:51.0038|INFO|Logger created
-2021-01-29 05:50:51.0878|INFO|LinkedProfiles.xml can't be found.
-2021-01-29 05:50:52.3627|INFO|Running as User
-2021-01-29 05:50:53.5433|INFO|Starting...
-2021-01-29 05:50:53.5433|INFO|Connection to ViGEmBus 1.16.112.0 established
-2021-01-29 05:50:53.5433|INFO|Searching for controllers...
-2021-01-29 05:50:53.5433|INFO|Using Shared Mode
+2021-02-09 05:49:47.8523|INFO|DS4Windows version 2.2.4
+2021-02-09 05:49:47.8523|INFO|DS4Windows exe file: DS4Windows.exe
+2021-02-09 05:49:47.8523|INFO|DS4Windows Assembly Architecture: x64
+2021-02-09 05:49:47.8523|INFO|OS Version: Microsoft Windows NT 10.0.19042.0
+2021-02-09 05:49:47.8523|INFO|OS Product Name: Windows 10 Enterprise
+2021-02-09 05:49:47.8523|INFO|OS Release ID: 2009
+2021-02-09 05:49:47.8523|INFO|System Architecture: x64
+2021-02-09 05:49:47.8523|INFO|Logger created
+2021-02-09 05:49:47.9453|INFO|LinkedProfiles.xml can't be found.
+2021-02-09 05:49:49.1144|INFO|Running as User
+2021-02-09 05:49:50.2505|INFO|Starting...
+2021-02-09 05:49:50.2505|INFO|Connection to ViGEmBus 1.16.112.0 established
+2021-02-09 05:49:50.2505|INFO|Searching for controllers...
+2021-02-09 05:49:50.2505|INFO|Using Shared Mode
