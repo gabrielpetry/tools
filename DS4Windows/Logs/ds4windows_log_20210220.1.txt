@@ -1,0 +1,44 @@
+2021-02-20 19:36:00.6278|INFO|DS4Windows version 2.2.7
+2021-02-20 19:36:00.6328|INFO|DS4Windows exe file: DS4Windows.exe
+2021-02-20 19:36:00.6328|INFO|DS4Windows Assembly Architecture: x64
+2021-02-20 19:36:00.6328|INFO|OS Version: Microsoft Windows NT 10.0.19042.0
+2021-02-20 19:36:00.6328|INFO|OS Product Name: Windows 10 Enterprise
+2021-02-20 19:36:00.6328|INFO|OS Release ID: 2009
+2021-02-20 19:36:00.6328|INFO|System Architecture: x64
+2021-02-20 19:36:00.6328|INFO|Logger created
+2021-02-20 19:36:00.7018|INFO|LinkedProfiles.xml can't be found.
+2021-02-20 19:36:06.6017|INFO|Running as User
+2021-02-20 19:36:07.6556|INFO|Starting...
+2021-02-20 19:36:07.6556|INFO|Connection to ViGEmBus 1.16.112.0 established
+2021-02-20 19:36:07.6556|INFO|Searching for controllers...
+2021-02-20 19:36:07.6556|INFO|Using Shared Mode
+2021-02-20 20:09:12.8938|INFO|The gamepad DS4 v.2 (BT) uses custom feature set (MonitorAudio)
+2021-02-20 20:09:12.9219|INFO|Found Controller: A0:AB:51:7B:C2:43 (BT) (DS4 v.2)
+2021-02-20 20:09:13.0264|INFO|Associate X360 Controller for input DS4 #1
+2021-02-20 20:09:13.0554|INFO|Controller 1 is using Profile "Default". Battery level is 100%
+2021-02-20 20:13:08.9958|INFO|Disassociate X360 Controller for input DS4 #1
+2021-02-20 20:13:08.9958|INFO|Controller 1 was removed or lost connection
+2021-02-20 20:14:53.2322|INFO|The gamepad DS4 v.2 (BT) uses custom feature set (MonitorAudio)
+2021-02-20 20:14:53.2467|INFO|Found Controller: A4:AE:11:87:D2:29 (BT) (DS4 v.2)
+2021-02-20 20:14:53.2467|INFO|Associate X360 Controller for input DS4 #1
+2021-02-20 20:14:53.2467|INFO|Controller 1 is using Profile "Default". Battery level is 87%
+2021-02-20 20:18:32.2902|WARN|Controller 1's latency over 10ms (40.1 ms)
+2021-02-20 20:18:32.7598|INFO|Controller 1's latency now under 10ms
+2021-02-20 20:18:32.8914|WARN|Controller 1's latency over 10ms (40.75 ms)
+2021-02-20 20:18:33.1697|INFO|Controller 1's latency now under 10ms
+2021-02-20 20:18:33.2146|WARN|Controller 1's latency over 10ms (42.75 ms)
+2021-02-20 20:18:33.5064|INFO|Controller 1's latency now under 10ms
+2021-02-20 20:29:13.8790|INFO|Gamepad data write connection is lost. Disconnecting the gamepad. LastErrorCode=1167
+2021-02-20 20:29:13.8790|INFO|Disassociate X360 Controller for input DS4 #1
+2021-02-20 20:29:13.8790|INFO|Controller 1 was removed or lost connection
+2021-02-20 20:29:21.5302|INFO|The gamepad DS4 v.2 (BT) uses custom feature set (MonitorAudio)
+2021-02-20 20:29:21.5437|INFO|Found Controller: A4:AE:11:87:D2:29 (BT) (DS4 v.2)
+2021-02-20 20:29:21.5437|INFO|Associate X360 Controller for input DS4 #1
+2021-02-20 20:29:21.5437|INFO|Controller 1 is using Profile "Default". Battery level is 75%
+2021-02-20 21:11:46.6974|INFO|Disassociate X360 Controller for input DS4 #1
+2021-02-20 21:11:46.6974|INFO|Controller 1 was removed or lost connection
+2021-02-20 21:16:59.3738|INFO|User Session Ending
+2021-02-20 21:16:59.5145|INFO|Stopping Virtual Output Controllers
+2021-02-20 21:16:59.5145|INFO|Closing connection to ViGEmBus
+2021-02-20 21:16:59.5145|INFO|Stopping DS4 Input Controllers
+2021-02-20 21:16:59.5145|INFO|Stopped DS4Windows
