@@ -18,7 +18,6 @@ SendMode Input
 ; Who actually uses numpad as non numpad keys?
 ; if you use, feel judged.
 ; SetNumLockState, AlwaysOn
-
 ; ------------------------------------------------------------------------------
 
 #Include, numpad.ahk
@@ -47,21 +46,65 @@ F2::open_explorer()
     Send {Click}
 Return
 
+
+^F6::
+    for k, v in Monitor.GetBrightness()   ; or just "2"
+	    MsgBox % k ": " v
+
+    for k, v in Monitor.GetBrightness()   ; empty parameter
+	    MsgBox % k ": " v
+
+    for k, v in Monitor.GetGammaRamp()   ; or just "2"
+	    MsgBox % k ": " v
+Return
+
+f6:: ; reset brightness
+    Send !{End}
+    mods_up()
+Return
+
+F7:: ; decrease brightness
+    Send !{PgDn}
+    mods_up()
+Return
+
+F8:: ; increase brightness
+    Send !{PgUp}
+    mods_up()
+Return
+
+F9:: ; decrease red
+    Send !+{PgDn}
+    mods_up()
+Return
+
+F10:: ; increase red
+    Send !+{PgUp}
+    mods_up()
+Return
+
+F11:: ; reading mode
+Return
+
 <#Tab::
 F1::
-    SetTitleMatchMode, RegEx
+    SetTitleMatchMode, 2
 
-    if (WinActive("Firefox$")) {
+    if (WinActive("ahk_class MozillaWindowClass")) {
         if WinActive("WhatsApp")
             Send ^{Tab}
         else
             Send ^1
-        
         mods_up()
         Return
+    } else {
+        if (run_or_switch_to_app("Firefox$", "firefox.exe", "RegEx")) {
+            move_mouse_to_window()
+        }
+        mods_up()
     }
-    run_or_switch_to_app("Firefox$", "firefox.exe", "RegEx")
-    move_mouse_to_window()
+    
+
 Return
 
 F3::vscode()
@@ -102,6 +145,7 @@ return
     SendInput, ^{PgUp}
     mods_up()
 Return
+
 +WheelUp::
     SendInput, ^{PgDn}
     mods_up()

@@ -4,7 +4,7 @@
 { ;This is the line that makes all the lines below possible.
     F23::return ;F23 is the dedicated 2nd keyboard "modifier key." You MUST allow it to "return,"
     Numpad0::sendKeySlow("F17", "Ctrl")
-    Numpad1::sendKeySlow("F18", "Ctrl")
+    ; Numpad1::sendKeySlow("F18", "Ctrl")
     Numpad2::sendKeySlow("F19", "Ctrl")
     Numpad3::sendKeySlow("F20", "Ctrl")
     Numpad4::sendKeySlow("F21", "Ctrl")
@@ -23,16 +23,4 @@
     ; Del::sendKeySlow("F17", "Shift")
     Del::vsthost()
     ,::sendKeySlow("F18", "Shift")
-}
-
-sendKeySlow(key, mod) {
-    SendInput {%mod% down}
-    sleep 100
-    SendInput {%key% down}
-    sleep 100
-    SendInput {%key% up}
-    sleep 100
-    SendInput {%mod% up}
-    sleep 100
-    mods_up()
 }
