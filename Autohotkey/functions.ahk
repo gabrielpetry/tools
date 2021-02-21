@@ -146,7 +146,7 @@ obs() {
 }
 
 vscode() {
-    run_or_switch_to_app("Visual Studio Code", "C:\Program Files\Microsoft VS Code\Code.exe")
+    run_or_switch_to_app("Visual Studio Code", "C:\Program Files\Microsoft VS Code\Code.exe -r C:\tools", "2")
     move_mouse_to_window()
 }
 
