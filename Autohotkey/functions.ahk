@@ -19,7 +19,7 @@ run_or_switch_to_app(winTitle, exe, titleMode = 2, runPath = "") {
         Run, %exe%, %runPath%
         WinWait, %winTitle%
         WinActivate %winTitle%
-        Return
+        Return true
     }
 
     if (WinActive(winTitle)) 
@@ -28,6 +28,8 @@ run_or_switch_to_app(winTitle, exe, titleMode = 2, runPath = "") {
         WinActivate %winTitle%
 
     mods_up()
+
+    return false
 }
 
 ; return 0 for short, 1 for long, so
@@ -97,6 +99,18 @@ move_window_to_side(side = "Left") {
     WinActivate ahk_pid %winid%
 
     move_mouse_to_window()
+}
+
+sendKeySlow(key, mod) {
+    SendInput {%mod% down}
+    sleep 100
+    SendInput {%key% down}
+    sleep 100
+    SendInput {%key% up}
+    sleep 100
+    SendInput {%mod% up}
+    sleep 100
+    mods_up()
 }
 
 spotify() {
