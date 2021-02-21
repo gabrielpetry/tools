@@ -25,6 +25,22 @@ lastWindowId := 0
 
 #if GetKeyState("ScrollLock", "T") and !getKeyState("F23", "P")
 {
+    
+    ^Numpad0::0
+    ^Numpad1::1
+    ^Numpad2::2
+    ^Numpad3::3
+    ^Numpad4::4
+    ^Numpad5::5
+    ^Numpad6::6
+    ^Numpad7::7
+    ^Numpad8::8
+    ^Numpad9::9
+    ^NumpadAdd::+
+    ^NumpadDiv::/
+    ^NumpadMult::*
+    ^NumpadSub::-
+
     Numpad0::spotify()
     Numpad1::Send {Media_Play_Pause}
     Numpad2::Send {Media_Prev}
@@ -77,4 +93,14 @@ lastWindowId := 0
     NumpadMult::notiontask()
 
     NumpadSub::obs()
+
+    ; Insert::Send {F17}
+    ; Del::Send {F18}
+    ; Home::Send {F19}
+    ; End::Send {F20}
+    +PgUp::Send {F19}
+    +PgDn::Send {F20}
+    PgUp::Send {F21}
+    PgDn::Send {F22}
+    
 }
